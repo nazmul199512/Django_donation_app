@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block head_title %}Organization-profile| {{ block.super}}{% endblock head_title %}
+
+
+ {% block content %}
+     <center><h2>Organization-profile</h2></center>
+     <hr/>
+
+         {% for qs in query %}
+<h3>
+            Name of the Organization:   {{ qs.organization_name }} <br/>
+             Unit of Social Organ: {{ qs.unit_of_Social_organ  }}<br/>
+            Year Established:  {{ qs.established_year }}<br/>
+             Address of the organization: {{ qs.organization_address }}<br/>
+
+             Contact Person:  {{ qs.contact_person }}<br/>
+             {{ qs.registration_details}}<br/>
+             Registration Details: {{ qs.fcra_details }}<br/>
+             FCRA Details: {{ qs.a_details }}<br/>
+             12A Details: {{ qs.g_details  }}<br/>
+             80 G (5) (VI) Details:  {{ qs.bank }}<br/>
+             Bank: {{ qs.branch }}<br/>
+             Branch: {{ qs.name }}<br/>
+             Account: {{ qs.account }}<br/>
+            ISFS: {{ qs.isfs   }}<br/>
+
+</h3>
+         {% endfor %}
+
+
+
+{% endblock %}
+

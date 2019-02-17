@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head_title %}Organization-gallery| {{ block.super}}{% endblock head_title %}
+
+{% block content %}
+   <center><h2>Videos</h2></center>
+    <hr/>
+<div class="col col-xs-offset-1">
+
+    {% for qs in query %}
+
+<div class="img-thumbnail">
+      {{ qs.embed_code|safe }} <br/>
+       {{ qs.title }} <br/>
+        {{ qs.add_time }} <br/>
+</div>
+    {% endfor %}
+
+</div>
+
+
+
+
+
+{% endblock %}

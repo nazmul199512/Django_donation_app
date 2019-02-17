@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+  {% block content %}
+
+
+      <div class="container-fluid padding">
+      <div class="row padding">
+          <div class="col-md-12 col-lg-6">
+              <center><h2>Donation</h2></center>
+
+
+
+
+          </div>
+
+          <div class="col-lg-6">
+     <h3>Donation Form</h3>
+
+              <form method='POST' action=''>{% csrf_token %}
+
+          {{ form.as_p}}
+
+        <input type="submit" class="btn btn-default" value="SEND INFORMATIONS"/> <br/> <br/>
+
+      </form>
+              <br class="my-4">
+
+
+                  {% include 'paypal.html' %}
+                  <br class="my-4">
+                  {% include 'stripe.html' %}
+                  <br class="my-4">
+                  {% include 'razorpay.html' %}
+
+
+
+          </div>
+
+      </div>
+  </div>
+
+
+{% endblock %}

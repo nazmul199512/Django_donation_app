@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head_title %}Activities| {{ block.super}}{% endblock head_title %}
+
+{% block content %}
+   <div class="container-fluid padding">
+      <div class="row padding">
+          <div class="col-md-12 col-lg-6">
+              <center><h2>Medical Camp</h2></center>
+
+              <p>
+                  {% for qs in query %}
+
+                   {{ qs.content }}
+
+                     {% endfor %}
+              </p>
+              <br/>
+
+          </div>
+
+          <div class="col-lg-6">
+               {% for qs in query %}
+               <img class="img-fluid " src="{{ qs.image.url }}"/>
+               {% endfor %}
+          </div>
+
+      </div>
+  </div>
+{% endblock %}
