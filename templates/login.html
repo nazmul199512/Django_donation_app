@@ -1,10 +1,13 @@
 
 {% extends 'base.html' %}
+{% load bootstrap4 %}
 {% block content %}
-<h2>Login</h2>
+    <div class="col-lg-4">
+<h2>Activities Update</h2>
 <form method="post" action="{% url 'login' %}">
   {% csrf_token %}
-  {{ form.as_p }}
-  <button type="submit">Login</button>
+  {% bootstrap_form form %}
+  <button type="submit" class="btn btn-success">Login</button>
 </form>
+    </div>
 {% endblock %}

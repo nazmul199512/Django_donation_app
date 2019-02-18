@@ -2,6 +2,7 @@ from django.shortcuts import render
 from about.models import History
 from activities.models import AwarenessSession, MedicalCamp, VocationalTraining
 from donation.models import Donation
+from .models import HomeImage
 
 
 def home(request):
@@ -18,3 +19,8 @@ def home(request):
         'query5': query5,
     }
     return render(request,"home.html", context)
+
+
+def home_image(request):
+    query = HomeImage.objects.all().order_by('-id')
+    return render(request, 'home.html', {'query': query})

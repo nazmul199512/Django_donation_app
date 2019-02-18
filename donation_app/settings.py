@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'gallery',
     'donation',
     'contact',
+    'bootstrap4',
     'paypal.standard.ipn',
 
 ]
