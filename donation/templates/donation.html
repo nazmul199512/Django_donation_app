@@ -4,41 +4,39 @@
 
 
       <div class="container-fluid padding">
-      <div class="row padding">
-          <div class="col-md-12 col-lg-6">
-              <center><h2>Donation</h2></center>
 
-
-
-
-          </div>
 
           <div class="col-lg-6">
-     <h3>Donation Form</h3>
+     <h3>Make a Donation Now!</h3>
 
               <form method='POST' action=''>{% csrf_token %}
 
           {% bootstrap_form form %}
         {% buttons %}
-        <input type="submit" class="btn btn-success" value="SEND INFORMATIONS"/>
+        <input type="submit" class="btn btn-success" value="DONATE"/>
                   {% endbuttons %}<br/> <br/>
 
       </form>
               <br class="my-4">
 
+                  <ul>
+                       <li><h3>Pay With..</h3></li>
+                        <br class="my-2">
+                      <li>{% include 'paypal.html' %}</li>
+                       <br class="my-2">
+                      <li>{% include 'stripe.html' %}</li>
+                        <br class="my-2">
+                      <li>{% include 'razorpay.html' %}</li>
 
-                  {% include 'paypal.html' %}
-                  <br class="my-4">
-                  {% include 'stripe.html' %}
-                  <br class="my-4">
-                  {% include 'razorpay.html' %}
+                  </ul>
+
 
 
 
           </div>
 
       </div>
-  </div>
+
 
 
 {% endblock %}

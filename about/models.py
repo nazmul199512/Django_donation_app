@@ -1,6 +1,7 @@
 from django.db import models
 
 
+
 class Profile(models.Model):
     organization_name = models.CharField(max_length=100)
     unit_of_Social_organ = models.CharField(max_length=100)
@@ -28,4 +29,5 @@ class History(models.Model):
 
     def __str__(self):
         return self.title
+
 

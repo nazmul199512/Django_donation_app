@@ -1,6 +1,8 @@
 
 
 
+
+{% load static %}
 <!DOCTYPE html>
 <div class="container-fluid padding">
 <html lang=en >
@@ -11,6 +13,7 @@
 {% include 'partials/css.html' %}
 
 
+<link href="{% static 'css/main.css' %}" rel="stylesheet">
 
 {% include 'partials/navbar.html' %}
 </head >
@@ -23,8 +26,9 @@
 {% block content %}{% endblock content %}
 </div>
 
-
+{% include 'footer.html' %}
 {% include 'partials/javascript.html' %}
+
 </body>
 
 

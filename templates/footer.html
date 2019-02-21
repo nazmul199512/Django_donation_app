@@ -1,0 +1,71 @@
+{% load static %}
+
+<head>
+<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+          crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+          crossorigin="anonymous">
+</head>
+
+<body>
+{% block content %}
+    <br class="my-8">
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+               <!-- <img src="img/image2.png"> -->
+
+                <h4>About Us </h4>
+                <p>
+                    Brothers Integrated Rural Development Society (BIRDS) is
+                    the Social organ of Sacred Heart Brothers formed in the year
+                    1997 with a primary motto to serve.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <h4> Contact Address</h4>
+                <p>BIRDS Campus, Geddalahalli,</p>
+               <p>Kothanur, Bangalore, Karnataka,</p>
+                <p>India – 560077 <p/>
+                <p>Ph : +91-9533172414 / 8500988328</p>
+               <p> Email ID : birdsbrothers@gmail.com,</p>
+               <p>info@birdsbangalore.orgm</p>
+            </div>
+
+            <div class="col-md-4">
+
+                <h4>Quick Donation</h4>
+
+                <p>Account Name : The Sacred Heart Brothers</p>
+                <p>Account No : 0486053000001020</p>
+                <p>IFSC Code : SIBL0000486</p>
+                <a class="btn btn-primary" href="{% url 'donate' %}">Donate</a>
+            </div>
+
+
+        <div class="col-12">
+            <hr class="light">
+            <h5>&copy;SAM Women Upliftment Trust</h5>
+        </div>
+        </div>
+
+    </div>
+</footer>
+{% endblock %}
+</body>
+
+

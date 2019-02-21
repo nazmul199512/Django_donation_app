@@ -14,7 +14,9 @@ def about_profile(request):
 def about_history(request):
     template_name = 'about/history.html'
     query = History.objects.all()
+
     context = {
-        'query': query
+        'query':query
+
     }
     return render(request, template_name, context)

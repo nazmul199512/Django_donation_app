@@ -2,8 +2,8 @@
 {% extends 'base.html' %}
 {% load bootstrap4 %}
 {% block content %}
-    <div class="col-lg-4">
-<h2>Activities Update</h2>
+    <div class="col-lg-6 ">
+<h2>Activities Update Page</h2>
 <form method="post" action="{% url 'login' %}">
   {% csrf_token %}
   {% bootstrap_form form %}
