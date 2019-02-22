@@ -2,123 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="942c0fd2-d01c-4ab8-97b9-8902a0cdf96f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/navbar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/bg-masthead.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/bg-showcase-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/bg-showcase-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/bg-showcase-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/testimonials-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/testimonials-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/testimonials-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/scss/_call-to-action.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/scss/_footer.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/scss/_global.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/scss/_icons.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/scss/_masthead.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/scss/_mixins.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/scss/_showcase.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/scss/_testimonials.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/scss/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/scss/landing-page.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-grid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-grid.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-reboot.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-reboot.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/css/font-awesome.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/animated.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/bordered-pulled.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/core.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/fixed-width.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/font-awesome.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/icons.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/larger.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/list.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/mixins.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/path.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/rotated-flipped.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/screen-reader.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/stacked.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/variables.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_animated.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_bordered-pulled.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_core.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_fixed-width.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_icons.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_larger.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_list.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_mixins.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_path.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_rotated-flipped.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_screen-reader.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_stacked.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/font-awesome.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.slim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.slim.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.slim.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/css/simple-line-icons.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/footer.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/about/models.py" afterPath="$PROJECT_DIR$/about/models.py" />
-      <change beforePath="$PROJECT_DIR$/about/templates/about/history.html" afterPath="$PROJECT_DIR$/about/templates/about/history.html" />
-      <change beforePath="$PROJECT_DIR$/about/templates/about/profile.html" afterPath="$PROJECT_DIR$/about/templates/about/profile.html" />
-      <change beforePath="$PROJECT_DIR$/about/views.py" afterPath="$PROJECT_DIR$/about/views.py" />
-      <change beforePath="$PROJECT_DIR$/activities/templates/activities/awareness.html" afterPath="$PROJECT_DIR$/activities/templates/activities/awareness.html" />
-      <change beforePath="$PROJECT_DIR$/activities/templates/activities/medical.html" afterPath="$PROJECT_DIR$/activities/templates/activities/medical.html" />
-      <change beforePath="$PROJECT_DIR$/activities/templates/activities/urban_development.html" afterPath="$PROJECT_DIR$/activities/templates/activities/urban_development.html" />
-      <change beforePath="$PROJECT_DIR$/activities/templates/activities/vocational.html" afterPath="$PROJECT_DIR$/activities/templates/activities/vocational.html" />
-      <change beforePath="$PROJECT_DIR$/activities/templates/activities/women_development.html" afterPath="$PROJECT_DIR$/activities/templates/activities/women_development.html" />
-      <change beforePath="$PROJECT_DIR$/contact/templates/contact.html" afterPath="$PROJECT_DIR$/contact/templates/contact.html" />
-      <change beforePath="$PROJECT_DIR$/donation/templates/donation.html" afterPath="$PROJECT_DIR$/donation/templates/donation.html" />
-      <change beforePath="$PROJECT_DIR$/donation/templates/paypal.html" afterPath="$PROJECT_DIR$/donation/templates/paypal.html" />
-      <change beforePath="$PROJECT_DIR$/donation/templates/volunteer_form.html" afterPath="$PROJECT_DIR$/donation/templates/volunteer_form.html" />
       <change beforePath="$PROJECT_DIR$/donation_app/settings.py" afterPath="$PROJECT_DIR$/donation_app/settings.py" />
-      <change beforePath="$PROJECT_DIR$/gallery/templates/gallery/image.html" afterPath="$PROJECT_DIR$/gallery/templates/gallery/image.html" />
-      <change beforePath="$PROJECT_DIR$/gallery/templates/gallery/video.html" afterPath="$PROJECT_DIR$/gallery/templates/gallery/video.html" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/css/stylesheet/main.css" afterPath="$PROJECT_DIR$/static/css/home.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/stylesheet/navbar.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/css/w3.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/javascript.html" afterPath="$PROJECT_DIR$/templates/partials/javascript.html" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/navbar.html" afterPath="$PROJECT_DIR$/templates/partials/navbar.html" />
+      <change beforePath="$PROJECT_DIR$/procfile" afterPath="$PROJECT_DIR$/procfile" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -135,7 +22,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="832">
               <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
               <folding />
             </state>
@@ -157,7 +44,7 @@
       <file leaf-file-name="navbar.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/navbar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-567">
+            <state relative-caret-position="234">
               <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
@@ -174,41 +61,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="525">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="donation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/donation/templates/donation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/donation/templates/process.html">
+      <file leaf-file-name="procfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="volunteer_form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/donation/templates/volunteer_form.html">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/donation_app/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="733">
+              <caret line="161" column="25" lean-forward="false" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
+              <folding>
+                <element signature="e#315#335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runtime.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -219,16 +118,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="awareness.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activities/templates/activities/awareness.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -262,7 +151,6 @@
         <option value="$PROJECT_DIR$/home/templates/home.html" />
         <option value="$PROJECT_DIR$/home/urls.py" />
         <option value="$PROJECT_DIR$/about/urls.py" />
-        <option value="$PROJECT_DIR$/procfile" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/donation_app/urls.py" />
         <option value="$PROJECT_DIR$/templates/partials/css.html" />
@@ -276,7 +164,6 @@
         <option value="$PROJECT_DIR$/static/css/navabar.css" />
         <option value="$PROJECT_DIR$/about/templates/about/history.html" />
         <option value="$PROJECT_DIR$/templates/home1.html" />
-        <option value="$PROJECT_DIR$/donation_app/settings.py" />
         <option value="$PROJECT_DIR$/about/views.py" />
         <option value="$PROJECT_DIR$/about/models.py" />
         <option value="$PROJECT_DIR$/about/templates/about/profile.html" />
@@ -302,6 +189,8 @@
         <option value="$PROJECT_DIR$/static/css/navbar.css" />
         <option value="$PROJECT_DIR$/static/css/home.css" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
+        <option value="$PROJECT_DIR$/procfile" />
+        <option value="$PROJECT_DIR$/donation_app/settings.py" />
       </list>
     </option>
   </component>
@@ -333,6 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -343,31 +234,12 @@
             <path>
               <item name="donation_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="donation_app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="donation_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="donation_app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="donation_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="donation_app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="donation_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="donation_app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,7 +322,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24543501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25295383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -479,22 +351,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirement.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/font-awesome/css/font-awesome.css" />
-    <entry file="file://$PROJECT_DIR$/static/font-awesome/css/font-awesome.min.css" />
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -570,13 +426,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/navabar.css" />
-    <entry file="file://$PROJECT_DIR$/donation_app/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -744,7 +593,7 @@
     <entry file="file://$PROJECT_DIR$/static/css/landing-page.css" />
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="832">
           <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding />
         </state>
@@ -752,7 +601,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/navbar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
+        <state relative-caret-position="234">
           <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
@@ -768,8 +617,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirement.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/donation_app/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="161" column="25" lean-forward="false" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
+          <folding>
+            <element signature="e#315#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding />
         </state>
       </provider>
