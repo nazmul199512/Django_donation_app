@@ -12,12 +12,13 @@ html , body {
 
 .navbar{
     padding: .8rem;
-   background-color: #1E90FF;
+    background-color: #1E90FF;
 
 }
 .navbar-nav li{
-    height: 75px;
-    padding-right:20px ;
+
+    padding-right:40px ;
+    background-color: #1E90FF;
 
 
 

@@ -9,8 +9,10 @@ https://docs.djangoproject.com/en/1.11/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
-import django_heroku
+
 import os
+import django_heroku
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -46,10 +48,10 @@ INSTALLED_APPS = [
 
 
     'bootstrap4',
+    'bootstrap_ui',
     'paypal.standard.ipn',
 
 ]
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -94,9 +96,11 @@ DATABASES = {
         'PASSWORD': 'nazmul1234#',
         'HOST': '127.0.0.1',
         'PORT': '5432',
+
     }
 }
 
+#DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
@@ -156,6 +160,8 @@ LOGIN_REDIRECT_URL ='/admin'
 
 PAYPAL_RECEIVER_EMAIL ='n028635@gmail.com'
 PAYPAL_TEST = True
+
+DJANGO_BOOTSTRAP_UI_THEME = 'bootswatch-paper'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 

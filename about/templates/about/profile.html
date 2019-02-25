@@ -1,34 +1,38 @@
 {% extends 'base.html' %}
-
+{% load bootstrap_ui_tags %}
 {% block head_title %}Organization-profile| {{ block.super}}{% endblock head_title %}
 
 
  {% block content %}
+     <div class="container padding">
+     <div class="col-lg-6">
      <center><h3 class="lead">Organization-profile</h3></center>
      <hr/>
 
+{% listgroup %}
          {% for qs in query %}
 <p class="lead">
-            Name of the Organization:   {{ qs.organization_name }} <br/>
-             Unit of Social Organ: {{ qs.unit_of_Social_organ  }}<br/>
-            Year Established:  {{ qs.established_year }}<br/>
-             Address of the organization: {{ qs.organization_address }}<br/>
+          {% listgroupitem %}  Name of the Organization:   {{ qs.organization_name }} <br/>{% endlistgroupitem %}
+           {% listgroupitem %}  Unit of Social Organ: {{ qs.unit_of_Social_organ  }}<br/>{% endlistgroupitem %}
+           {% listgroupitem %} Year Established:  {{ qs.established_year }}<br/>{% endlistgroupitem %}
+           {% listgroupitem %}  Address of the organization: {{ qs.organization_address }}<br/>{% endlistgroupitem %}
 
-             Contact Person:  {{ qs.contact_person }}<br/>
-             {{ qs.registration_details}}<br/>
-             Registration Details: {{ qs.fcra_details }}<br/>
-             FCRA Details: {{ qs.a_details }}<br/>
-             12A Details: {{ qs.g_details  }}<br/>
-             80 G (5) (VI) Details:  {{ qs.bank }}<br/>
-             Bank: {{ qs.branch }}<br/>
-             Branch: {{ qs.name }}<br/>
-             Account: {{ qs.account }}<br/>
-            ISFS: {{ qs.isfs   }}<br/>
+           {% listgroupitem %}  Contact Person:  {{ qs.contact_person }}<br/>{% endlistgroupitem %}
+            {% listgroupitem %} {{ qs.registration_details}}<br/>{% endlistgroupitem %}
+           {% listgroupitem %}  Registration Details: {{ qs.fcra_details }}<br/>{% endlistgroupitem %}
+           {% listgroupitem %}  FCRA Details: {{ qs.a_details }}<br/>{% endlistgroupitem %}
+          {% listgroupitem %}   12A Details: {{ qs.g_details  }}<br/>{% endlistgroupitem %}
+           {% listgroupitem %}  80 G (5) (VI) Details:  {{ qs.bank }}<br/>{% endlistgroupitem %}
+           {% listgroupitem %}  Bank: {{ qs.branch }}<br/>{% endlistgroupitem %}
+           {% listgroupitem %}  Branch: {{ qs.name }}<br/>{% endlistgroupitem %}
+           {% listgroupitem %}  Account: {{ qs.account }}<br/>{% endlistgroupitem %}
+           {% listgroupitem %} ISFS: {{ qs.isfs   }}<br/>{% endlistgroupitem %}
 
 </p>
          {% endfor %}
 
-
-
+{% endlistgroup %}
+ </div>
+     </div>
 {% endblock %}
 

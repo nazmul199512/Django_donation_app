@@ -40,19 +40,6 @@ p{
     shape-outside: circle(50%) border-box;
 
 }
-div {
-  border: 1px solid #FFFAFA;
-     margin: 1em 0;
-    background-blend-mode: color-burn;
-
-}
-div:nth-child(1) {
-  border-bottom-width: thick;
-}
-
-div:nth-child(2) {
-  border-bottom-width: .5em;
-}
 
 form{
       padding-right: 10px;

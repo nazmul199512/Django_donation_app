@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
 {% load bootstrap4 %}
+{% load bootstrap_ui_tags %}
   {% block content %}
 
 
-      <div class="container-fluid padding">
+      <div class="container padding">
 
 
           <div class="col-lg-6">
@@ -19,17 +20,17 @@
       </form>
               <br class="my-4">
 
-                  <ul>
-                       <li><h3>Pay With..</h3></li>
+{% listgroup %}
+                 {% listgroupitem %}   <h3>Pay With..</h3>{% endlistgroupitem %}
                         <br class="my-2">
-                      <li>{% include 'paypal.html' %}</li>
+            {% listgroupitem %}  {% include 'paypal.html' %}{% endlistgroupitem %}
                        <br class="my-2">
-                      <li>{% include 'stripe.html' %}</li>
+              {% listgroupitem %}  {% include 'stripe.html' %}{% endlistgroupitem %}
                         <br class="my-2">
-                      <li>{% include 'razorpay.html' %}</li>
+              {% listgroupitem %}  {% include 'razorpay.html' %}{% endlistgroupitem %}
 
-                  </ul>
 
+{% endlistgroup %}
 
 
 
