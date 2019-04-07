@@ -3,14 +3,12 @@
 {% block head_title %}Activities| {{ block.super}}{% endblock head_title %}
 
 {% block content %}
-   <div class="container-fluid padding">
-   <div class="row text-center">
-       <center><h3>Awareness Sessions</h3></center> <hr/>
+   <div class="container padding">
       <div class="row padding">
           <div class="col-md-12 col-lg-6">
+              <center><h4>Awareness Sessions</h4></center>
 
-
-              <p>
+              <p class="lead">
                   {% for qs in query %}
 
                    {{ qs.content }}
@@ -28,6 +26,5 @@
           </div>
 
       </div>
-   </div>
   </div>
 {% endblock %}

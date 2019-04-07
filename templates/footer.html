@@ -21,52 +21,54 @@
 
 <body>
 {% block content %}
-    <br class="my-8">
-<footer>
-    <div class="container-fluid padding">
-        <div class="row text-center">
-            <div class="col-md-4">
-               <!-- <img src="img/image2.png"> -->
-
-                <h4>About Us </h4>
-                <p>
-                    Brothers Integrated Rural Development Society (BIRDS) is
-                    the Social organ of Sacred Heart Brothers formed in the year
-                    1997 with a primary motto to serve.
-                </p>
-            </div>
-
-            <div class="col-md-4">
-                <h4> Contact Address</h4>
-                <p>BIRDS Campus, Geddalahalli,</p>
-               <p>Kothanur, Bangalore, Karnataka,</p>
-                <p>India – 560077 <p/>
-                <p>Ph : +91-9533172414 / 8500988328</p>
-               <p> Email ID : birdsbrothers@gmail.com,</p>
-               <p>info@birdsbangalore.orgm</p>
-
-            </div>
-
-            <div class="col-md-4">
-
-                <h4>Quick Donation</h4>
-
-                <p>Account Name : The Sacred Heart Brothers</p>
-                <p>Account No : 0486053000001020</p>
-                <p>IFSC Code : SIBL0000486</p>
-                <a class="btn btn-primary" href="{% url 'donate' %}">Donate</a>
-            </div>
+ <!-- Footer -->
+    <footer class="footer bg-light">
+      <div class="container padding">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a class="nav-link" href="{% url "profile" %}">About  </a>
+              </li>
+              <li class="list-inline-item"></li>
+              <li class="list-inline-item">
+                <a class="nav-link" href="{% url "contact" %}"> Contact</a>
+              </li>
+              <li class="list-inline-item"></li>
+              <li class="list-inline-item">
+                <a class="nav-link" href="{% url "donate" %}">Donate</a>
+              </li>
 
 
-        <div class="col-12">
-            <hr class="light">
-            <h5>&copy;SAM Women Upliftment Trust</h5>
+        <li class="list-inline-item">
+         <a class="nav-link" href="{% url "login" %}">Activity</a>
+      </li>
+
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">&copy;SAM Women Upliftment Trust 2019 . All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+            <ul class="list-inline mb-0" >
+              <li class="list-inline-item mr-3">
+                 <a href="#"> <i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item mr-3">
+                 <a href="#"> <i class="fab fa-instagram"></i></a>
+              </li>
+                <li class="list-inline-item mr-3">
+                 <a href="#"> <i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"> <i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        </div>
+      </div>
+    </footer>
 
-    </div>
-</footer>
 {% endblock %}
+
 </body>
 
 

@@ -3,12 +3,12 @@
 {% block head_title %}Activities| {{ block.super}}{% endblock head_title %}
 
 {% block content %}
-   <div class="container-fluid padding">
+   <div class="container padding">
       <div class="row padding">
           <div class="col-md-12 col-lg-6">
-              <center><h3>Urban Development</h3></center>
+              <center><h4>Urban Development</h4></center>
 
-              <p>
+              <p class="lead">
                   {% for qs in query %}
 
                        {{ qs.objectives }}

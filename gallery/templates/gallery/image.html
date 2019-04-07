@@ -3,26 +3,23 @@
 {% block head_title %}Organization-gallery| {{ block.super}}{% endblock head_title %}
 
 {% block content %}
-   <center><h3>Gallery</h3></center>
+<div class="container padding">
+   <center><h4>Gallery</h4></center>
     <hr/>
 
 
+<div class="card-group">
+<div class="card " style="width: 18rem;">
 
+  <div class="card-body">
+       {% for qs in query %}
 
+     <img class="img-thumbnail" src="{{ qs.image.url }}"/>
 
-    {% for qs in query %}
+       {% endfor %}
 
-
-       <img class="img-thumbnail" src="{{ qs.image.url }}"/>
-
-    {% endfor %}
-
-
-
-
-
-
-
-
-
+</div>
+</div>
+</div>
+    </div>
 {% endblock %}

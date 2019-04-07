@@ -2,12 +2,14 @@
 {% extends 'base.html' %}
 {% load bootstrap4 %}
 {% block content %}
-    <div class="col-lg-6 ">
+    <div class="container padding">
+    <div class="col-lg-4 ">
 <h2>Activities Update Page</h2>
 <form method="post" action="{% url 'login' %}">
   {% csrf_token %}
   {% bootstrap_form form %}
-  <button type="submit" class="btn btn-success">Login</button>
+  <button style="background-color:#1E90FF" type="submit" class="btn btn-primary">Login</button>
 </form>
+    </div>
     </div>
 {% endblock %}

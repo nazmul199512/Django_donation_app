@@ -16,7 +16,6 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.contrib.auth.views import LoginView
-from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.conf.urls.static import static
 from django.conf import settings
 
@@ -28,13 +27,9 @@ urlpatterns = [
     url(r'^activities/', include('activities.urls')),
     url(r'^gallery/', include('gallery.urls')),
     url(r'^contact/', include('contact.urls')),
-    url(r'^paypal/', include('paypal.standard.ipn.urls')),
     url(r'^donation/', include('donation.urls')),
 
     url(r'^login/$', LoginView.as_view(template_name='login.html'), name='login'),
-]
+]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
-urlpatterns += staticfiles_urlpatterns()
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

@@ -63,26 +63,8 @@ h3{
     padding: 1rem;
 }
 
-
-footer{
-    padding-top: 2rem;
-     font-family: poppins, sans-serif;
-}
-
-footer h4 {
-    font-weight: lighter;
-    color: #1E90FF;
-}
-footer p {
-    font-weight: bold;
-}
-
-footer h5 {
-    font-weight: bolder;
-    collapse: 2px;
-    border-radius: 1px;
-    color:#1E90FF;
-
+.footer{
+    background-color: #1E90FF;
 }
 
 

@@ -1,66 +1,212 @@
 {% extends 'base.html' %}
-{% load static %}
+{% load staticfiles %}
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale = 1">
-    <title>BOOTSTRAP 4 WEBSITE LINK</title>
-    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-          crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-            crossorigin="anonymous">
-    </script>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-            crossorigin="anonymous">
-    </script>
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-          crossorigin="anonymous">
-
-    <link href="{% static 'css/home.css' %}" rel="stylesheet">
-
-</head>
-
-
-
-<body>
 {% block content %}
-
-
-    <!--image slider -->
-<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-interval="10000">
-      <img src="{% static 'img/back1.jpg' %}" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item" data-interval="2000">
-      <img src="{% static 'img/back2.jpg' %}" class="d-block w-100" alt="...">
+<div class="container padding">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel"  >
+  <div class="carousel-inner" style="width: 1200px;height: 500px">
+    <div class="carousel-item active">
+      <img src="{% static 'img/we_dev1.jpg' %}" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="{% static 'img/back3.jpg' %}" class="d-block w-100" alt="...">
+      <img src="{% static 'img/we_dev2.jpg' %}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/we_dev_3.jpg' %}" class="d-block w-100" alt="...">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
+    </div>
+
+<br class="my-2">
+<! --Welcome section -->
+<div class="container padding">
+<div class="row welcome text-center">
+    <div class="col-12">
+        <h3 class="display-6">Welcome to SAM Women Upliftment Trust</h3>
+    </div>
+    <hr class="light">
+    <div class="col-12">
+        <p class="lead">SAM Women Upliftment Trust is the Social organ of Sacred Heart Brothers
+            formed in the year 1997 with a primary motto to serve the marginalized communities
+            in Rural and Urban areas. Sacred Heart Brothers is a registered society
+            under Karnataka Society Registration Act in the year 1978 with a number 3/77- 78.</p>
+    </div>
+</div>
+</div>
+
+<! --three column section -->
+    <div class="container padding">
+    <br class="my-2">
+
+    <div class="row text-center padding">
+        <div class="col-12">
+        <h3 class="display-6">Our Activities</h3>
+             <br class="my-2">
+    </div>
+         <div class="col-xs-12 col-sm-6 col-md-4">
+             <button type="button" class="btn btn-outline-primary">
+                 <a class="dropdown-item" href="{% url "women-dev" %}"><h5>Women Development</h5></a>
+             </button>
+
+         </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+             <button type="button" class="btn btn-outline-primary">
+                 <a class="dropdown-item" href="{% url "urban-dev" %}"><h5>Urban Development</h5></a>
+             </button>
+
+         </div>
+
+        <div class="col-sm-12  col-md-4">
+            <button type="button" class="btn btn-outline-primary">
+                <a class="dropdown-item" href="{% url "awareness" %}"><h5>Awareness Sessions</h5></a>
+
+            </button>
+
+         </div>
+    </div>
+    <br class="my-2">
+</div>
+<! --two column section -->
+ <div class="container padding">
+
+
+    <div class="row text-center padding">
+
+
+
+         <div class="col-xs-12 col-sm-6 col-md-4" style="padding-left:160px">
+             <button type="button" class="btn btn-outline-primary">
+                 <a class="dropdown-item" href="{% url "vocational" %}"><h5>Vocational Training</h5></a>
+             </button>
+
+         </div>
+
+
+        <div class="col-sm-12  col-md-8">
+            <button type="button" class="btn btn-outline-primary">
+
+                <a class="dropdown-item" href="{% url "medical" %}"><h5>Medical Camp</h5></a>
+            </button>
+
+         </div>
+    </div>
+    <br class="my-2">
+
+</div>
+<! ---Cards -->
+
+<div class="container padding">
+    <div class="row padding">
+
+
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'img/we_dev1.jpg' %}">
+                <div class="card-body">
+                    <h4 class="card-tile">Awareness Session</h4>
+                    <p class="card-text">
+                        Human Rights education training program Creating
+                        awareness on UDHR and POCSO Supportive hands....
+                    </p>
+              <a href="{% url "awareness" %}" class="btn btn-outline-primary">View</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'img/we_dev2.jpg' %}">
+                <div class="card-body">
+                    <h4 class="card-tile">Medical Camp</h4>
+                    <p class="card-text">
+                        Human Rights education training program Creating
+                        awareness on UDHR and POCSO Supportive hands...
+                    </p>
+            <a href="{% url "medical" %}" class="btn btn-outline-primary">View</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'img/we_dev_3.jpg' %}">
+                <div class="card-body">
+                    <h4 class="card-tile">Vocational Training</h4>
+                    <p class="card-text">
+                       Human Rights education training program Creating awareness
+                        on UDHR and POCSO Supportive hands...
+                    </p>
+            <a href="{% url "vocational" %}" class="btn btn-outline-primary">View</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+<! --two column section -->
+ <div class="container padding">
+
+
+    <div class="row text-center padding">
+
+
+        <div class="col-12">
+        <h3 class="display-6">Our Gallery</h3>
+             <br class="my-2">
+        </div>
+
+         <div class="col-xs-12 col-sm-6 col-md-4" style="padding-left:160px">
+             <button type="button" class="btn btn-outline-primary">
+                 <a class="dropdown-item" href="{% url "image" %}"><h5>Images</h5></a>
+             </button>
+
+         </div>
+
+
+        <div class="col-sm-12  col-md-8">
+            <button type="button" class="btn btn-outline-primary">
+
+                <a class="dropdown-item" href="{% url "video" %}"><h5>Videos</h5></a>
+            </button>
+
+         </div>
+    </div>
+    <br class="my-2">
+
+</div>
+
+<!--donation -->
+
+    <div class="container padding">
+    <button  type="button" class="btn btn-primary btn-lg btn-block">
+        <a class="dropdown-item" href="{% url "donate" %}">Make a Quick Donation</a>
+    </button>
+    <br class="my-2">
+    </div>
 
 
 
 
 {% endblock %}
-</body>
-</html>
+
+
+
+
+

@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 {% load bootstrap4 %}
   {% block content %}
-   <div class="container-fluid padding">
+   <div class="container padding">
       <div class="row padding">
           <div class="col-md-12 col-lg-6">
-              <center><h3>Contact With Us</h3></center>
+              <center><h4>Contact With Us</h4></center>
 
-              <p>
+              <p class="lead">
                   {% for qs in query %}
 
                   {{ qs.title }}<br/>
@@ -27,7 +27,7 @@
 
            {% bootstrap_form form %}
            {% buttons %}
-          <input type="submit" class="btn btn-success" value="SEND"/>
+          <input style="background-color: #1E90FF" type="submit" class="btn btn-primary" value="SEND"/>
           {% endbuttons %}
       </form>
 
