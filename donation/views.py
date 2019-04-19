@@ -2,9 +2,12 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.urls import reverse
 from .forms import VolunteerRegistrationForm, DonationForm
 from .models import VolunteerRegistration, Volunteer, Donation
-from django.conf import settings
 from paypal.standard.forms import PayPalPaymentsForm
 from django.views.decorators.csrf import csrf_exempt
+
+from django.conf import settings
+from django.contrib import messages
+from .decorators import check_recaptcha
 
 
 def volunteer_registration(request):
@@ -19,12 +22,14 @@ def volunteer_registration(request):
     return render(request, "volunteer_form.html", context)
 
 
+@check_recaptcha
 def payment_process(request):
     form = DonationForm(request.POST or None)
-    if form.is_valid():
+    if form.is_valid() and request.recaptcha_is_valid:
         instance = form.save(commit=False)
         instance.user = request.user
         instance.save()
+        messages.success(request, 'Successfully passed captcha !')
         return redirect('/donation/donate/')
     context = {'form': form}
     return render(request, 'donation.html', context)

@@ -148,7 +148,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 LOGIN_REDIRECT_URL ='/admin'
 
-
+GOOGLE_RECAPTCHA_SECRET_KEY = '6LdkMp8UAAAAAHD4Vtf6lN1b3w4IlpQCndRmG5Z-'
 
 
 

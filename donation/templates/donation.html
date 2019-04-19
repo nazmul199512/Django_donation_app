@@ -6,20 +6,24 @@
 {% load bootstrap4 %}
 {% load bootstrap_ui_tags %}
    <div class="container padding">
-<div class="col-lg-8">
+<div class="col-lg-7">
 
               <h4> Donation Information</h4>
 
               <form method='POST' action=''>{% csrf_token %}
 
           {% bootstrap_form form %}
-        {% buttons %}
+              <script src='https://www.google.com/recaptcha/api.js'></script>
+    <div class="g-recaptcha" data-sitekey="6LdkMp8UAAAAAIxF-YVroxRKptvOk3p19r0wj7cm"></div>
+<br/>
+                  {% buttons %}
         <input style="background-color: #1E90FF" type="submit" class="btn btn-primary" value="SEND INFO"/>
-                  {% endbuttons %}<br/> <br/>
+                  {% endbuttons %}
 
       </form>
 </div>
-       <h5>Donate With Paypal, Netbanking, Credit Cards, Debit Cards, GooglePay, AmazonPay, UPI</h5>
+   <br class="my-2">
+       <h5>Donate With Paypal, Netbanking, Credit Cards, Debit Cards, UPI</h5>
    <div class="btn-group-horizontal" >
 
           <button type="button" class="btn btn-outline-secondary"><center> {% include 'paypal.html' %}</center></button>
