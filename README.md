@@ -9,7 +9,7 @@
 ./scripts/activate
  ```
  #### Import project in virtualenv
- ```
+ ```bash
  git clone https://github.com/nazmul199512/Django_donation_app.git
  ```
  
