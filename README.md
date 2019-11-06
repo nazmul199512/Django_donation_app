@@ -13,7 +13,7 @@
  git clone https://github.com/nazmul199512/Django_donation_app.git
  ```
  
-#### Install all the requirements 
+#### Install all  requirements 
 ```bash
 pip install -r requirements.txt
 ```
