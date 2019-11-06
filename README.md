@@ -10,11 +10,11 @@
  ```
  
 #### Install all the requirements by command
-```
+```bash
 pip install -r requirements.txt
 ```
 #### Run the project by command
-```
+```bash
 python manage.py runserver
 ```
 
