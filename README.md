@@ -1,12 +1,14 @@
 # Django_donation_app
  This project is powered by Django and I use PayPal API for collect donation.
 
-## Install and active virtual-environment by command:
+### Install and active virtual-environment by command:
 * pip install virtualenv
 * virtualenv your_environment_name
 * activate
-## Install all the requirements by command:
+### Install all the requirements by command:
 * pip install -r requirements.txt
+### Run the project by command
+* python manage.py runserver
 
 ## Database:
 * Local: PostgreSQL
