@@ -4,12 +4,9 @@
 #### Install and activate virtual-environment by command
 ```
  pip install virtualenv
-  ```
  virtualenv your_environment_name
-  ```
  cd your_environment_name
-  ```
- ./scripts/activate
+./scripts/activate
  ```
  
 #### Install all the requirements by command
