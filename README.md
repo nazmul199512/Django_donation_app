@@ -2,7 +2,7 @@
  This project is powered by Django and I use PayPal API for collect donation.
 
 #### Install and activate virtual-environment by command
-```
+```bash
  pip install virtualenv
  virtualenv your_environment_name
  cd your_environment_name
